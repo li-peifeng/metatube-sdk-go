@@ -9,10 +9,10 @@ import (
 
 	"github.com/gocolly/colly/v2"
 
-	"github.com/metatube-community/metatube-sdk-go/common/parser"
-	"github.com/metatube-community/metatube-sdk-go/model"
-	"github.com/metatube-community/metatube-sdk-go/provider"
-	"github.com/metatube-community/metatube-sdk-go/provider/internal/scraper"
+	"github.com/li-peifeng/metatube-sdk-go/common/parser"
+	"github.com/li-peifeng/metatube-sdk-go/model"
+	"github.com/li-peifeng/metatube-sdk-go/provider"
+	"github.com/li-peifeng/metatube-sdk-go/provider/internal/scraper"
 )
 
 var (
@@ -22,15 +22,15 @@ var (
 
 const (
 	Name     = "AIRAV"
-	Priority = 1000 - 6 // unofficial provider gets lower priority.
+	Priority = 1009 // unofficial provider gets lower priority.
 )
 
 const (
-	baseURL      = "https://www.airav.wiki/"
-	movieURL     = "https://www.airav.wiki/video/%s"
-	movieAPIURL  = "https://www.airav.wiki/api/video/barcode/%s?lng=jp"
-	searchAPIURL = "https://www.airav.wiki/api/video/list?search=%s&lng=jp"
-	videoAPIURL  = "https://www.airav.wiki/api/video/getVideoMedia?barcode=%s&vid=%s"
+	baseURL      = "https://www.airav.io/"
+	movieURL     = "https://www.airav.io/video/%s"
+	movieAPIURL  = "https://www.airav.io/api/video/barcode/%s?lng=jp"
+	searchAPIURL = "https://www.airav.io/api/video/list?search=%s&lng=jp"
+	videoAPIURL  = "https://www.airav.io/api/video/getVideoMedia?barcode=%s&vid=%s"
 )
 
 type AirAV struct {

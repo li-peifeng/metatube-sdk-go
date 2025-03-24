@@ -7,9 +7,9 @@ import (
 
 	"golang.org/x/text/language"
 
-	"github.com/metatube-community/metatube-sdk-go/common/fetch"
-	"github.com/metatube-community/metatube-sdk-go/errors"
-	"github.com/metatube-community/metatube-sdk-go/translate"
+	"github.com/li-peifeng/metatube-sdk-go/common/fetch"
+	"github.com/li-peifeng/metatube-sdk-go/errors"
+	"github.com/li-peifeng/metatube-sdk-go/translate"
 )
 
 var _ translate.Translator = (*Google)(nil)

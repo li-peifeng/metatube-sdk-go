@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/metatube-community/metatube-sdk-go/common/fetch"
-	"github.com/metatube-community/metatube-sdk-go/translate"
+	"github.com/li-peifeng/metatube-sdk-go/common/fetch"
+	"github.com/li-peifeng/metatube-sdk-go/translate"
 )
 
 var _ translate.Translator = (*DeepL)(nil)

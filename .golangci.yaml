@@ -21,4 +21,4 @@ linters-settings:
     sections:
       - standard
       - default
-      - prefix(github.com/metatube-community/metatube-sdk-go)
+      - prefix(github.com/li-peifeng/metatube-sdk-go)

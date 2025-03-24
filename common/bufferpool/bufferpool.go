@@ -3,7 +3,7 @@ package bufferpool
 import (
 	"bytes"
 
-	"github.com/metatube-community/metatube-sdk-go/common/pool"
+	"github.com/li-peifeng/metatube-sdk-go/common/pool"
 )
 
 type BufferPool struct {

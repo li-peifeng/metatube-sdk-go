@@ -3,9 +3,9 @@ package muramura
 import (
 	"regexp"
 
-	"github.com/metatube-community/metatube-sdk-go/model"
-	"github.com/metatube-community/metatube-sdk-go/provider"
-	"github.com/metatube-community/metatube-sdk-go/provider/1pondo/core"
+	"github.com/li-peifeng/metatube-sdk-go/model"
+	"github.com/li-peifeng/metatube-sdk-go/provider"
+	"github.com/li-peifeng/metatube-sdk-go/provider/1pondo/core"
 )
 
 var (

@@ -12,18 +12,18 @@ import (
 
 	"github.com/gocolly/colly/v2"
 
-	"github.com/metatube-community/metatube-sdk-go/common/fetch"
-	"github.com/metatube-community/metatube-sdk-go/common/number"
-	"github.com/metatube-community/metatube-sdk-go/common/parser"
-	"github.com/metatube-community/metatube-sdk-go/common/singledo"
-	"github.com/metatube-community/metatube-sdk-go/model"
-	"github.com/metatube-community/metatube-sdk-go/provider"
-	"github.com/metatube-community/metatube-sdk-go/provider/duga"
-	"github.com/metatube-community/metatube-sdk-go/provider/fanza"
-	"github.com/metatube-community/metatube-sdk-go/provider/getchu"
-	"github.com/metatube-community/metatube-sdk-go/provider/internal/scraper"
-	"github.com/metatube-community/metatube-sdk-go/provider/mgstage"
-	"github.com/metatube-community/metatube-sdk-go/provider/pcolle"
+	"github.com/li-peifeng/metatube-sdk-go/common/fetch"
+	"github.com/li-peifeng/metatube-sdk-go/common/number"
+	"github.com/li-peifeng/metatube-sdk-go/common/parser"
+	"github.com/li-peifeng/metatube-sdk-go/common/singledo"
+	"github.com/li-peifeng/metatube-sdk-go/model"
+	"github.com/li-peifeng/metatube-sdk-go/provider"
+	"github.com/li-peifeng/metatube-sdk-go/provider/duga"
+	"github.com/li-peifeng/metatube-sdk-go/provider/fanza"
+	"github.com/li-peifeng/metatube-sdk-go/provider/getchu"
+	"github.com/li-peifeng/metatube-sdk-go/provider/internal/scraper"
+	"github.com/li-peifeng/metatube-sdk-go/provider/mgstage"
+	"github.com/li-peifeng/metatube-sdk-go/provider/pcolle"
 )
 
 var (

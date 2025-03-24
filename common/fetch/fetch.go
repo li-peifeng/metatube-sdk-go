@@ -10,8 +10,8 @@ import (
 	"github.com/hashicorp/go-cleanhttp"
 	"github.com/hashicorp/go-retryablehttp"
 
-	"github.com/metatube-community/metatube-sdk-go/common/random"
-	"github.com/metatube-community/metatube-sdk-go/errors"
+	"github.com/li-peifeng/metatube-sdk-go/common/random"
+	"github.com/li-peifeng/metatube-sdk-go/errors"
 )
 
 var DefaultFetcher = Default(&Config{RandomUserAgent: true})

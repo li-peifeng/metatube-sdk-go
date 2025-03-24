@@ -3,8 +3,8 @@ package engine
 import (
 	"fmt"
 
-	"github.com/metatube-community/metatube-sdk-go/database"
-	"github.com/metatube-community/metatube-sdk-go/model"
+	"github.com/li-peifeng/metatube-sdk-go/database"
+	"github.com/li-peifeng/metatube-sdk-go/model"
 )
 
 func (e *Engine) DBAutoMigrate(v bool) error {

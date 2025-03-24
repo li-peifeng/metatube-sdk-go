@@ -6,8 +6,8 @@ import (
 	"gorm.io/datatypes"
 	"gorm.io/gorm/clause"
 
-	"github.com/metatube-community/metatube-sdk-go/model"
-	mt "github.com/metatube-community/metatube-sdk-go/provider"
+	"github.com/li-peifeng/metatube-sdk-go/model"
+	mt "github.com/li-peifeng/metatube-sdk-go/provider"
 )
 
 func (e *Engine) getMovieReviewsFromDB(provider mt.MovieProvider, id string) (*model.MovieReviewInfo, error) {

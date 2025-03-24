@@ -6,9 +6,9 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/metatube-community/metatube-sdk-go/engine"
-	"github.com/metatube-community/metatube-sdk-go/errors"
-	"github.com/metatube-community/metatube-sdk-go/model"
+	"github.com/li-peifeng/metatube-sdk-go/engine"
+	"github.com/li-peifeng/metatube-sdk-go/errors"
+	"github.com/li-peifeng/metatube-sdk-go/model"
 )
 
 type searchType uint8

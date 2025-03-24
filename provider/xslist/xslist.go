@@ -13,10 +13,10 @@ import (
 	"golang.org/x/net/html"
 	dt "gorm.io/datatypes"
 
-	"github.com/metatube-community/metatube-sdk-go/common/parser"
-	"github.com/metatube-community/metatube-sdk-go/model"
-	"github.com/metatube-community/metatube-sdk-go/provider"
-	"github.com/metatube-community/metatube-sdk-go/provider/internal/scraper"
+	"github.com/li-peifeng/metatube-sdk-go/common/parser"
+	"github.com/li-peifeng/metatube-sdk-go/model"
+	"github.com/li-peifeng/metatube-sdk-go/provider"
+	"github.com/li-peifeng/metatube-sdk-go/provider/internal/scraper"
 )
 
 var (

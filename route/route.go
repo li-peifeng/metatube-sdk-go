@@ -8,10 +8,10 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/metatube-community/metatube-sdk-go/engine"
-	"github.com/metatube-community/metatube-sdk-go/errors"
-	V "github.com/metatube-community/metatube-sdk-go/internal/version"
-	"github.com/metatube-community/metatube-sdk-go/route/auth"
+	"github.com/li-peifeng/metatube-sdk-go/engine"
+	"github.com/li-peifeng/metatube-sdk-go/errors"
+	V "github.com/li-peifeng/metatube-sdk-go/internal/version"
+	"github.com/li-peifeng/metatube-sdk-go/route/auth"
 )
 
 func New(app *engine.Engine, v auth.Validator) *gin.Engine {

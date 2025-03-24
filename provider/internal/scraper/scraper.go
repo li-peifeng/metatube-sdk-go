@@ -7,7 +7,7 @@ import (
 	"github.com/gocolly/colly/v2"
 	"go.uber.org/atomic"
 
-	"github.com/metatube-community/metatube-sdk-go/provider"
+	"github.com/li-peifeng/metatube-sdk-go/provider"
 )
 
 var (

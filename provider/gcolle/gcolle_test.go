@@ -3,7 +3,7 @@ package gcolle
 import (
 	"testing"
 
-	"github.com/metatube-community/metatube-sdk-go/provider/internal/testkit"
+	"github.com/li-peifeng/metatube-sdk-go/provider/internal/testkit"
 )
 
 func TestGcolle_GetMovieInfoByID(t *testing.T) {

@@ -1,12 +1,12 @@
 # MetaTube SDK Go
 
-[![Build Status](https://img.shields.io/github/actions/workflow/status/metatube-community/metatube-sdk-go/docker.yml?branch=main&style=flat-square&logo=github-actions)](https://github.com/metatube-community/metatube-sdk-go/actions/workflows/release.yml)
-[![Go Report Card](https://goreportcard.com/badge/github.com/metatube-community/metatube-sdk-go?style=flat-square)](https://github.com/metatube-community/metatube-sdk-go)
-[![Require Go Version](https://img.shields.io/badge/go-%3E%3D1.23-30dff3?style=flat-square&logo=go)](https://github.com/metatube-community/metatube-sdk-go/blob/main/go.mod)
-[![GitHub License](https://img.shields.io/github/license/metatube-community/metatube-sdk-go?color=e4682a&logo=apache&style=flat-square)](https://github.com/metatube-community/metatube-sdk-go/blob/main/LICENSE)
-[![Tag](https://img.shields.io/github/v/tag/metatube-community/metatube-sdk-go?color=%23ff8936&logo=fitbit&style=flat-square)](https://github.com/metatube-community/metatube-sdk-go/tags)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/metatube-community/metatube-sdk-go/docker.yml?branch=main&style=flat-square&logo=github-actions)](https://github.com/li-peifeng/metatube-sdk-go/actions/workflows/release.yml)
+[![Go Report Card](https://goreportcard.com/badge/github.com/li-peifeng/metatube-sdk-go?style=flat-square)](https://github.com/li-peifeng/metatube-sdk-go)
+[![Require Go Version](https://img.shields.io/badge/go-%3E%3D1.23-30dff3?style=flat-square&logo=go)](https://github.com/li-peifeng/metatube-sdk-go/blob/main/go.mod)
+[![GitHub License](https://img.shields.io/github/license/metatube-community/metatube-sdk-go?color=e4682a&logo=apache&style=flat-square)](https://github.com/li-peifeng/metatube-sdk-go/blob/main/LICENSE)
+[![Tag](https://img.shields.io/github/v/tag/metatube-community/metatube-sdk-go?color=%23ff8936&logo=fitbit&style=flat-square)](https://github.com/li-peifeng/metatube-sdk-go/tags)
 
-[//]: # ([![Supported Platforms]&#40;https://img.shields.io/badge/platform-Linux%20%7C%20FreeBSD%20%7C%20NetBSD%20%7C%20OpenBSD%20%7C%20Darwin%20%7C%20Windows-549688?style=flat-square&logo=launchpad&#41;]&#40;https://github.com/metatube-community/metatube-sdk-go&#41;)
+[//]: # ([![Supported Platforms]&#40;https://img.shields.io/badge/platform-Linux%20%7C%20FreeBSD%20%7C%20NetBSD%20%7C%20OpenBSD%20%7C%20Darwin%20%7C%20Windows-549688?style=flat-square&logo=launchpad&#41;]&#40;https://github.com/li-peifeng/metatube-sdk-go&#41;)
 
 Metadata Tube SDK in Golang.
 
@@ -44,7 +44,7 @@ To install this package, you first need [Go](https://golang.org/) installed (**g
 the below Go command to install SDK.
 
 ```sh
-go get -u github.com/metatube-community/metatube-sdk-go
+go get -u github.com/li-peifeng/metatube-sdk-go
 ```
 
 ## Credits
@@ -63,4 +63,4 @@ go get -u github.com/metatube-community/metatube-sdk-go
 
 ## License
 
-[Apache-2.0 License](https://github.com/metatube-community/metatube-sdk-go/blob/main/LICENSE)
+[Apache-2.0 License](https://github.com/li-peifeng/metatube-sdk-go/blob/main/LICENSE)

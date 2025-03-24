@@ -1,4 +1,4 @@
-module github.com/metatube-community/metatube-sdk-go
+module github.com/li-peifeng/metatube-sdk-go
 
 go 1.23.0
 

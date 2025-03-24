@@ -9,11 +9,11 @@ import (
 
 	"github.com/gocolly/colly/v2"
 
-	"github.com/metatube-community/metatube-sdk-go/common/parser"
-	"github.com/metatube-community/metatube-sdk-go/model"
-	"github.com/metatube-community/metatube-sdk-go/provider"
-	"github.com/metatube-community/metatube-sdk-go/provider/fc2/fc2util"
-	"github.com/metatube-community/metatube-sdk-go/provider/internal/scraper"
+	"github.com/li-peifeng/metatube-sdk-go/common/parser"
+	"github.com/li-peifeng/metatube-sdk-go/model"
+	"github.com/li-peifeng/metatube-sdk-go/provider"
+	"github.com/li-peifeng/metatube-sdk-go/provider/fc2/fc2util"
+	"github.com/li-peifeng/metatube-sdk-go/provider/internal/scraper"
 )
 
 var _ provider.MovieProvider = (*FC2)(nil)

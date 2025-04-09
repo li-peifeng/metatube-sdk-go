@@ -5,8 +5,6 @@ package engine
 import (
 	_ "github.com/li-peifeng/metatube-sdk-go/provider/10musume"
 	_ "github.com/li-peifeng/metatube-sdk-go/provider/1pondo"
-	_ "github.com/li-peifeng/metatube-sdk-go/provider/airav"
-	_ "github.com/li-peifeng/metatube-sdk-go/provider/arzon"
 	_ "github.com/li-peifeng/metatube-sdk-go/provider/av-league"
 	_ "github.com/li-peifeng/metatube-sdk-go/provider/avbase"
 	_ "github.com/li-peifeng/metatube-sdk-go/provider/aventertainments"
